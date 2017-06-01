@@ -1,1 +1,2 @@
-# vagrant
+# vagrant-files
+とりあえず開発環境向けのvagrantfile群
