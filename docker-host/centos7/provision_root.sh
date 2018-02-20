@@ -1,7 +1,7 @@
 # package
 yum update -y
 yum install -y epel-release
-yum install -y vim rsync wget htop finger git svn jq
+yum install -y vim rsync wget htop finger git svn jq nkf
 
 # date
 timedatectl set-timezone Asia/Tokyo
