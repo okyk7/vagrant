@@ -5,6 +5,7 @@ yum install -y vim rsync wget htop finger git svn jq
 
 # date
 timedatectl set-timezone Asia/Tokyo
+localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
 localectl set-locale LANG=ja_JP.utf8
 localectl set-keymap jp106
 
