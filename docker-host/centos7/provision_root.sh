@@ -17,6 +17,8 @@ echo "alias vi='vim'" >> /etc/bashrc && source /etc/bashrc
 
 # vim
 mv vimrc /etc/
+nkf -Lu --overwrite /etc/vimrc
+
 
 # hostname
 hostnamectl set-hostname local-vm-host.localdomain
