@@ -13,7 +13,9 @@ localectl set-keymap jp106
 sed -i "s/\(^SELINUX=\).*/\1disabled/" /etc/selinux/config
 
 # alias
-echo "alias vi='vim'" >> /etc/bashrc && source /etc/bashrc
+echo "alias vi='vim'" >> /etc/bashrc
+echo "alias view='vim -R'" >> /etc/bashrc
+source /etc/bashrc
 
 # vim
 mv vimrc /etc/
