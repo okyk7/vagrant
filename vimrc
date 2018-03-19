@@ -18,6 +18,7 @@ set autoread
 set cursorline
 set list
 set listchars=tab:>-,trail:-,extends:<,precedes:<
+set backspace=indent,eol,start
 highlight specialKey ctermfg=darkgray
 
 inoremap jj <Esc>
